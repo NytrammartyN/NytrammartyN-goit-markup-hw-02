@@ -1,150 +1,78 @@
- <!DOCTYPE html>
-<html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <!--Header SECT-->
-    <header class="header">
-      <nav class="header_nav">
-        <a class="logo_WebStudio" href="index.html">WebStudio</a>
+:root { /_ fonts _/ --main-font: 'Roboto', sans-serif; --secondary-fonts:
+'Raleway';
 
-        <ul class="header_list">
-          <li class="header_item">
-            <a class="header_link" href="index.html">Студия</a>
-          </li>
-          <li class="header_item">
-            <a class="header_link" href="#">Портфолио</a>
-          </li>
-          <li class="header_item">
-            <a class="header_link" href="#"> Контакты</a>
-          </li>
-        </ul>
-      </nav>
+/_ text colors _/ --main-text-colour: #212121; --other-text-colour: #757575;
 
-      <ul class="header_list_contacts">
-        <li class="header_item_contacts">
-          <a class="header_link_contacts" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li class="header_item_contacts">
-          <a class="header_link_contacts" href="tel:+380961111111"
-            >+38 096 111 11 11</a
-          >
-        </li>
-      </ul>
-    </header>
-    <!--Мain SECT-->
+/_ bg colors _/ --hero-and-footer-bg-colour: #2f303a;
 
-    <main>
-      <section class="section_btt_portfolio">
-        <ul>
-          <li>
-            <button class="section_btt_portfolio_" type="button">Все</button>
-          </li>
-          <li>
-            <button class="section_btt_portfolio_" type="button">
-              Веб-сайты
-            </button>
-          </li>
-          <li>
-            <button class="section_btt_portfolio_" type="button">
-              Приложения
-            </button>
-          </li>
-          <li>
-            <button class="section_btt_portfolio_" type="button">Дизайн</button>
-          </li>
-          <li>
-            <button class="section_btt_portfolio_" type="button">
-              Маркетинг
-            </button>
-          </li>
-        </ul>
-      </section>
-      <!--Our TEAM sect-->
-      <section class="our_team">
-        <h2 class="our_team_next">Наша команда</h2>
-        <ul>
-          <li class="our_team_1">
-            <img
-              src="images/ИгорьДемьяненко.jpg"
-              alt="Игорь Демьяненко 1"
-              width="270"
-              height="260"
-            />
+/_ others _/ } .body { font-family: var(--main-font); }
 
-            <h3 class="our_team_name">Игорь Демьяненко</h3>
-            <p class="our_team_profession">Product Designer</p>
-          </li>
+//_ reset styles _/ .link { text-decoration: none; } .list { list-style-type:
+none; }
 
-          <li class="our_team_1">
-            <img
-              src="images/ОльгаРепина.jpg"
-              alt="Oльга Репина 2"
-              width="270"
-              height="260"
-            />
+/_ Header SECT _/ .header { position: absolute; width: 1600px; height: 80px;
+left: 0px; top: 0px;
 
-            <h3 class="our_team_name">Ольга Репина</h3>
-            <p class="our_team_profession">Frontend Developer</p>
-          </li>
-          <li class="our_team_1">
-            <img
-              src="images/НиколайТарасов.jpg"
-              alt="Николай Тарасов 3"
-              width="270"
-              height="260"
-            />
+background-color: #ffffff; }
 
-            <h3 class="our_team_name">Николай Тарасов</h3>
-            <p class="our_team_profession">Marketing</p>
-          </li>
+.logo_WebStudio { position: absolute; width: 145px; height: 31px; left: 215px;
+top: 24px;
 
-          <li class="our_team_1">
-            <img
-              src="images/МихаилЕрмаков.jpg"
-              alt="Михаил Ермаков 4"
-              width="270"
-              height="260"
-            />
+font-family: 'Raleway'; font-style: normal; font-weight: 700; font-size: 26px;
+line-height: 31px; letter-spacing: 0.03em;
 
-            <h3 class="our_team_name">Михаил Ермаков</h3>
-            <p class="our_team_name_profession">UI Designer</p>
-          </li>
-        </ul>
-      </section>
-    </main>
-    <!--Footer SECT-->
-    <footer class="footer">
-      <a class="footer_logo_WebStudio" href="index.html">WebStudio</a>
-      <address>
-        <ul>
-          <li>
-            <a
-              class="footer_location"
-              href="https://bit.ly/3pXMvUd"
-              target="_blank"
-              rel="noopener noreferrer"
-              >г. Киев, пр-т. Леси Украинки, 26</a
-            >
-          </li>
-          <li>
-            <a class="footer_link" href="mailto:info@devstudio.com"
-              >info@example.com</a
-            >
-          </li>
-          <li>
-            <a class="footer_link" href="tel:+380961111111"
-              >+38 096 111 11 11</a
-            >
-          </li>
-        </ul>
-      </address>
-    </footer>
-  </body>
-</html>
+color: #2196f3; } .header_list { list-style: none; }
+
+.header_link { position: absolute; width: 49px; height: 16px; left: 453px; top:
+32px;
+
+font-family: 'Roboto'; font-style: normal; font-weight: 500; font-size: 14px;
+line-height: 16px; letter-spacing: 0.02em;
+
+color: #2196f3; }
+
+.header_link1 { position: absolute; width: 77px; height: 16px; left: 552px; top:
+32px;
+
+font-family: 'Roboto'; font-style: normal; font-weight: 500; font-size: 14px;
+line-height: 16px; letter-spacing: 0.02em;
+
+color: #212121; }
+
+.header_link2 { position: absolute; width: 68px; height: 16px; left: 679px; top:
+32px;
+
+font-family: 'Roboto'; font-style: normal; font-weight: 500; font-size: 14px;
+line-height: 16px; letter-spacing: 0.02em;
+
+color: #212121; }
+
+.header_link_mail { list-style: none; position: absolute; width: 135px; height:
+16px; left: 1078px; top: 32px;
+
+font-family: 'Roboto'; font-style: normal; font-weight: 500; font-size: 14px;
+line-height: 16px; letter-spacing: 0.02em;
+
+color: #2196f3; }
+
+.header_item_tel { list-style: none; position: absolute; width: 122px; height:
+16px; left: 1263px; top: 32px;
+
+font-family: 'Roboto'; font-style: normal; font-weight: 500; font-size: 14px;
+line-height: 16px; letter-spacing: 0.02em;
+
+color: #757575; } /_ Main SECT _/ .section_Hero { position: absolute; width:
+1600px; height: 600px; left: 0px; top: 80px;
+
+background-color: #2f303a; } .section_Hero_TEXT { position: absolute; width:
+696px; height: 120px; left: 452px; top: 280px;
+
+font-family: 'Roboto'; font-style: normal; font-weight: 900; font-size: 44px;
+line-height: 60px; text-align: center; letter-spacing: 0.06em; text-transform:
+uppercase;
+
+color: #ffffff; } .section_Hero_btt { position: absolute; width: 200px; height:
+50px; left: 700px; top: 430px;
+
+background: #2196f3; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); border-radius:
+4px; }
