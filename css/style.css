@@ -16,9 +16,10 @@
   font-family: var(--main-font);
 }
 
-//* reset styles */
+/* reset styles */
 .link {
   text-decoration: none;
+  color: currentColor;
 }
 .list {
   list-style-type: none;
