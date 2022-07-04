@@ -58,10 +58,12 @@
   letter-spacing: 0.03em;
   line-height: 1.19;
   color: var(--accent-text-color);
+  text-transform: capitalize;
 }
 .logo-accent {
   font-family: var(--secondary-fonts);
   color: var(--main-text-color);
+  text-transform: capitalize;
 }
 
 .header_list_contacts .link:hover,
@@ -87,6 +89,7 @@
   letter-spacing: 0.02em;
 
   color: var(--accent-text-color);
+  text-transform: capitalize;
 }
 
 .link2 {
@@ -103,6 +106,7 @@
   letter-spacing: 0.02em;
 
   color: var(--main-text-color);
+  text-transform: capitalize;
 }
 
 .link3 {
@@ -119,6 +123,7 @@
   letter-spacing: 0.02em;
 
   color: var(--main-text-color);
+  text-transform: capitalize;
 }
 
 .link4 {
@@ -150,6 +155,7 @@
   letter-spacing: 0.02em;
 
   color: var(--other-text-color);
+  text-transform: capitalize;
 }
 /* Main SECT */
 .body {
@@ -222,13 +228,15 @@
   text-align: center;
   letter-spacing: 0.03em;
   cursor: pointer;
+  text-transform: capitalize;
 }
+
 .bttn_port {
   color: #ffffff;
   background: var(--accent-text-color);
   border-radius: 4px;
   cursor: pointer;
-  
+  text-transform: capitalize;
 }
 .bttn_port:hover,
 .bttn_port:target {
@@ -239,6 +247,7 @@
   color: var(--main-text-color);
   background-color: var(--credo-color);
   cursor: pointer;
+  text-transform: capitalize;
 
   border-radius: 4px;
 }
@@ -256,11 +265,12 @@
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+
   color: var(--main-text-color);
 }
 
 .credo_text {
-  font-family: var(--main-font)font-weight: 400;
+  font-family: var(--main-font);
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -305,6 +315,7 @@
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
+  text-transform: capitalize;
 
   color: var(--main-text-color);
 }
@@ -315,6 +326,7 @@
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
+  text-transform: capitalize;
 
   color: var(--other-text-color);
 }
@@ -331,6 +343,7 @@
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  text-transform: capitalize;
 
   color: var(--accent-text-color);
 }
@@ -338,6 +351,7 @@
 .logo-accent_foot {
   color: var(--main-background-color);
   font-family: var(--secondary-fonts);
+  text-transform: capitalize;
 }
 
 .location {
