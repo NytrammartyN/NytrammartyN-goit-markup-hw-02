@@ -52,7 +52,6 @@
   top: 24px;
 
   font-family: var(--secondary-fonts);
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
@@ -82,7 +81,6 @@
   top: 32px;
 
   font-family: var(--main-font);
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -99,7 +97,6 @@
   top: 32px;
 
   font-family: var(--main-font);
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -116,7 +113,6 @@
   top: 32px;
 
   font-family: var(--main-font);
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -133,8 +129,6 @@
   top: 32px;
 
   font-family: var(--main-font);
-  font-style: normal;
-  font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
@@ -150,7 +144,6 @@
   top: 32px;
 
   font-family: var(--main-font);
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -199,7 +192,6 @@
   top: 430px;
 
   font-family: var(--main-font);
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.8;
@@ -224,7 +216,6 @@
   top: 174px;
 
   font-family: var(--main-font);
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
@@ -236,6 +227,8 @@
   color: #ffffff;
   background: var(--accent-text-color);
   border-radius: 4px;
+  cursor: pointer;
+  
 }
 .bttn_port:hover,
 .bttn_port:target {
@@ -245,6 +238,7 @@
 .bttns {
   color: var(--main-text-color);
   background-color: var(--credo-color);
+  cursor: pointer;
 
   border-radius: 4px;
 }
@@ -257,7 +251,6 @@
 /* section_credo */
 .credo_header {
   font-family: var(--main-font);
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -267,9 +260,7 @@
 }
 
 .credo_text {
-  font-family: var(--main-font);
-  font-style: normal;
-  font-weight: 400;
+  font-family: var(--main-font)font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -280,7 +271,6 @@
 
 .we_text {
   font-family: var(--main-font);
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -299,7 +289,6 @@
 
 .our_team_header {
   font-family: var(--main-font);
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -310,8 +299,7 @@
 }
 
 .our_team_name {
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
+  font-family: var(--main-font);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -322,9 +310,7 @@
 }
 
 .our_team_profession {
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: 400;
+  font-family: var(--main-font);
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
@@ -341,7 +327,6 @@
 
 .logo_WebStudio_foot {
   font-family: var(--secondary-fonts);
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -358,7 +343,6 @@
 .location {
   font-family: var(--main-font);
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -369,7 +353,6 @@
 .mail {
   font-family: var(--main-font);
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -380,7 +363,6 @@
 .tel {
   font-family: var(--main-font);
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
