@@ -22,6 +22,7 @@
   letter-spacing: 0.03em;
   background-color: var(--team-background-color);
   color: var(--main-text-color);
+  font-size: 14px;
 }
 
 /* reset styles */
@@ -30,27 +31,15 @@
   color: currentColor;
 }
 .list {
-  list-style-type: none;
+  list-style: none;
 }
 
 /* Header SECT */
 .header {
-  position: absolute;
-  width: 1600px;
-  height: 80px;
-  left: 0px;
-  top: 0px;
-
   background-color: var(--main-background-color);
 }
 
 .logo_WebStudio {
-  position: absolute;
-  width: 145px;
-  height: 31px;
-  left: 215px;
-  top: 24px;
-
   font-family: var(--secondary-fonts);
   font-weight: 700;
   font-size: 26px;
@@ -76,12 +65,6 @@
 }
 
 .link1 {
-  position: absolute;
-  width: 49px;
-  height: 16px;
-  left: 453px;
-  top: 32px;
-
   font-family: var(--main-font);
   font-weight: 500;
   font-size: 14px;
@@ -93,12 +76,6 @@
 }
 
 .link2 {
-  position: absolute;
-  width: 77px;
-  height: 16px;
-  left: 552px;
-  top: 32px;
-
   font-family: var(--main-font);
   font-weight: 500;
   font-size: 14px;
@@ -110,12 +87,6 @@
 }
 
 .link3 {
-  position: absolute;
-  width: 68px;
-  height: 16px;
-  left: 679px;
-  top: 32px;
-
   font-family: var(--main-font);
   font-weight: 500;
   font-size: 14px;
@@ -127,12 +98,6 @@
 }
 
 .link4 {
-  position: absolute;
-  width: 135px;
-  height: 16px;
-  left: 1078px;
-  top: 32px;
-
   font-family: var(--main-font);
   font-size: 14px;
   line-height: 16px;
@@ -142,12 +107,6 @@
 }
 
 .link5 {
-  position: absolute;
-  width: 122px;
-  height: 16px;
-  left: 1263px;
-  top: 32px;
-
   font-family: var(--main-font);
   font-weight: 500;
   font-size: 14px;
@@ -159,27 +118,12 @@
 }
 /* Main SECT */
 .body {
-  position: relative;
-  width: 1600px;
-  height: 2349px;
-
   background-color: var(--main-background-color);
 }
 .section_Hero {
-  width: 1600px;
-  height: 600px;
-  left: 0px;
-  top: 80px;
-
   background-color: var(--hero-and-footer-bg-color);
 }
 .section_Hero_TEXT {
-  position: absolute;
-  width: 696px;
-  height: 120px;
-  left: 452px;
-  top: 280px;
-
   font-family: var(--main-font);
   font-weight: 900;
   font-size: 44px;
@@ -191,12 +135,6 @@
   color: var(--main-background-color);
 }
 .bttn {
-  position: absolute;
-  width: 200px;
-  height: 50px;
-  left: 700px;
-  top: 430px;
-
   font-family: var(--main-font);
   font-weight: 700;
   font-size: 16px;
@@ -215,12 +153,6 @@
 }
 
 .section_bttns {
-  position: absolute;
-  width: 611px;
-  height: 54px;
-  left: 495px;
-  top: 174px;
-
   font-family: var(--main-font);
   font-weight: 500;
   font-size: 16px;
@@ -258,6 +190,10 @@
 }
 
 /* section_credo */
+.credo_list {
+  column-count: 4;
+  text-indent: 40px;
+}
 .credo_header {
   font-family: var(--main-font);
   font-weight: 700;
@@ -275,8 +211,12 @@
   line-height: 1.7;
   letter-spacing: 0.03em;
 
+  column-count: 4;
+  text-indent: 40px;
+
   color: var(--other-text-color);
 }
+
 /* What are we doing sec */
 
 .we_text {
@@ -289,7 +229,9 @@
 
   color: var(--main-text-color);
 }
-
+.columns {
+  column-count: 3;
+}
 /* our team sect*/
 .our_team {
   box-sizing: border-box;
