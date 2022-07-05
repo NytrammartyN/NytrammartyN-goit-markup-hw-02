@@ -64,7 +64,7 @@
   list-style: none;
 }
 
-.link1 {
+.header_link1 {
   font-family: var(--main-font);
   font-weight: 500;
   font-size: 14px;
@@ -75,7 +75,7 @@
   text-transform: capitalize;
 }
 
-.link2 {
+.header_link2 {
   font-family: var(--main-font);
   font-weight: 500;
   font-size: 14px;
@@ -86,7 +86,7 @@
   text-transform: capitalize;
 }
 
-.link3 {
+.header_link3 {
   font-family: var(--main-font);
   font-weight: 500;
   font-size: 14px;
@@ -97,7 +97,7 @@
   text-transform: capitalize;
 }
 
-.link4 {
+.header_link4 {
   font-family: var(--main-font);
   font-size: 14px;
   line-height: 16px;
@@ -106,7 +106,7 @@
   color: var(--accent-text-color);
 }
 
-.link5 {
+.header_link5 {
   font-family: var(--main-font);
   font-weight: 500;
   font-size: 14px;
