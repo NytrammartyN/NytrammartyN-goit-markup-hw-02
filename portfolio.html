@@ -4,50 +4,74 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Портфолио</title>
-      <!--Fonts start-->
-      <link rel="preconnect" href="https://fonts.googleapis.com"> 
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-      <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-      <!--Fonts end-->
-      <link rel="stylesheet" href="css/style.css">
-
+    <title>Студия</title>
+    <!--Fonts start-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!--Fonts end-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
-  <body>
-    <!--Header SECT-->
-    <header class="header">
+  <body class="body">
+   <!--Header SECT-->
+   <header class="header">
     <nav>
-      <a class="logo_WebStudio link" 
-      lang="en" href="index.html">web<span class="logo-accent">studio</span></a>
+      <a class="logo_WebStudio link" lang="en" href="./index.html"
+        >Web<span class="logo-accent">Studio</span></a
+      >
 
       <ul class="header_list_contacts list">
-        <li><a class="link1 link" href="index.html">cтудия</a></li>
-        <li><a class="link2 link" href="portfolio.html">портфолио</a> </li>
-        <li><a class="link3 link" href="#contacts"> контакты</a></li>
+        <li><a class="header_link1 link" href="./index.html">Студия</a></li>
+        <li>
+          <a class="header_link2 link" href="./portfolio.html">Портфолио</a>
+        </li>
+        <li><a class="header_link3 link" href="#contacts">Контакты</a></li>
       </ul>
     </nav>
 
     <ul class="header_list_contacts list">
-      <li><a class="link4 link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-      <li><a class="link5 link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+      <li>
+        <a class="header_link4 link" href="mailto:info@devstudio.com"
+          >info@devstudio.com</a
+        >
+      </li>
+      <li>
+        <a class="header_link5 link" href="tel:+380961111111"
+          >+38 096 111 11 11</a
+        >
+      </li>
     </ul>
-
   </header>
     <!--Мain SECT portfolio-->
-
     <main>
-      <section class="section_bttns">
-        <button class="bttn_port" type="button">все</button>
-        <button class="bttns" type="button">веб-сайты</button>
-        <button class="bttns" type="button">приложения</button>
-        <button class="bttns" type="button">дизайн</button>
-        <button class="bttns" type="button">маркетинг</button>
+      <section class="portfolio_section">
+       <h1 hidden>top_bttn</h1>
+     <ul class="Portfolio_bttns list">
+       <li >
+        <button class="bttn_port" type="button">Все</button></li>
+       <li>
+        <button class="bttns" type="button">Веб-сайты</button></li>
+       <li>
+        <button  class="bttns" type="button">Приложения</button></li>
+       <li>
+        <button  class="bttns" type="button">Дизайн</button></li>
+       <li>
+        <button  class="bttns" type="button">Маркетинг</button></li>
+      
+      </ul>
         </section>
       <!--our_project_section-->
       <section class="our_project_section">
         <h2 hidden>our_project_section></h2>
-        <ul>
-          <li class="our_project_section list">
+        <ul class="our_project_list list">
+          <li class="our_project_header">
             <img
               src="images/img10.jpg"
               alt="технокряк"
@@ -55,11 +79,11 @@
               height="294"
             />
 
-            <h3 class="credo_header">технокряк</h3>
-            <p class="credo_text">веб-сайт</p>
+            <h3 class="our_project_title">Технокряк</h3>
+            <p class="our_project_text">Веб-сайт</p>
           </li>
 
-          <li class="our_project_section list">
+          <li class="our_project_section">
             <img
               src="images/img-2.jpg"
               alt="Постер New Orlean vs Golden State"
@@ -67,11 +91,11 @@
               height="294"
             />
 
-            <h3 class="credo_header">  постер new orlean vs golden state </h3>
-            <p class="credo_text">дизайн</p>
+            <h3 class="our_project_title">  Постер New Orlean vs Golden State </h3>
+            <p class="our_project_text">Дизайн</p>
           </li>
 
-          <li class="our_project_section list">
+          <li class="our_project_section">
             <img
               src="images/img-3.jpg"
               alt="Ресторан Seafood"
@@ -79,11 +103,11 @@
               height="294"
             
               />
-            <h3 class="credo_header">ресторан seafood</h3>
-            <p class="credo_text">приложение</p>
+            <h3 class="our_project_title">Ресторан Seafood</h3>
+            <p class="our_project_text">Приложение</p>
           </li>
 
-          <li class="our_project_section list">
+          <li class="our_project_section">
             <img
               src="images/img-4.jpg"
               alt="Проект Prime"
@@ -91,12 +115,12 @@
               height="294"
               />
 
-            <h3 class="credo_header">проект prime</h3>
-            <p class="credo_text">маркетинг</p>
+            <h3 class="our_project_title">Проект Prime</h3>
+            <p class="our_project_text">Маркетинг</p>
           </li>
         
 
-         <li class="our_project_section list">
+         <li class="our_project_section">
             <img
               src="images/img-5.jpg"
               alt="Проект Boxes"
@@ -104,12 +128,12 @@
               height="294"
 
             />
-              <h3 class="credo_header">проект boxes</h3>
-              <p class="credo_text">приложение</p>
+              <h3 class="our_project_title">Проект Boxes</h3>
+              <p class="our_project_text">Приложение</p>
          </li>
 
        
-          <li class="our_project_section list">
+          <li class="our_project_section">
             <img
               src="images/img-6.jpg"
               alt="Inspiration has no Borders"
@@ -117,11 +141,11 @@
               height="294"
 
             />
-             <h3 class="credo_header">inspiration has no borders</h3>
-             <p class="credo_text">веб-сайт</p>
+             <h3 class="our_project_title">Inspiration has no Borders</h3>
+             <p class="our_project_text">Веб-сайт</p>
           </li>
 
-          <li class="our_project_section list">
+          <li class="our_project_section">
             <img
               src="images/img-7.jpg"
               alt="Издание Limited Edition"
@@ -129,11 +153,11 @@
               height="294"
             />
 
-            <h3 class="credo_header">издание limited edition</h3>
-            <p class="credo_text">дизайн</p>
+            <h3 class="our_project_title">Издание Limited Edition</h3>
+            <p class="our_project_text">Дизайн</p>
           </li>
 
-          <li class="our_project_section list">
+          <li class="our_project_section">
             <img
               src="images/img-8.jpg"
               alt="Проект LAB"
@@ -141,11 +165,11 @@
               height="294"
             />
 
-            <h3 class="credo_header">проект LAB</h3>
-            <p class="credo_text">маркетинг</p>
+            <h3 class="our_project_title">Проект LAB</h3>
+            <p class="our_project_text">Маркетинг</p>
           </li>
 
-          <li class="our_project_section list">
+          <li class="our_project_section">
             <img
               src="images/img-9.jpg"
               alt="Growing Business"
@@ -153,8 +177,8 @@
               height="294"
             />
 
-            <h3 class="credo_header">growing business</h3>
-            <p class="credo_text">приложение</p>
+            <h3 class="our_project_title">Growing Business</h3>
+            <p class="our_project_text">Приложение</p>
           </li>
 
           <ul>
@@ -162,7 +186,9 @@
     </main>
     <!--Footer SECT-->
     <footer class="footer">
-      <a class="logo_WebStudio_foot link" lang="en" href="index.html">web<span class="logo-accent_foot">studio</span></a>
+      <a class="logo_WebStudio_foot link" lang="en" href="index.html"
+        >Web<span class="logo-accent_foot">Studio</span></a
+      >
       <address>
         <ul class="ft_adress_list">
           <li class="location list">
@@ -171,7 +197,7 @@
               href="https://bit.ly/3pXMvUd"
               target="_blank"
               rel="noopener noreferrer"
-              >г. киев, пр-т. леси украинки, 26</a
+              >г. Киев, пр-т. Леси Украинки, 26</a
             >
           </li>
           <li class="mail list">
@@ -180,9 +206,7 @@
             >
           </li>
           <li class="tel list">
-            <a class="tel link" href="tel:+380961111111"
-              >+38 096 111 11 11</a
-            >
+            <a class="tel link" href="tel:+380961111111">+38 096 111 11 11</a>
           </li>
         </ul>
       </address>

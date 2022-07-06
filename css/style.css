@@ -43,21 +43,20 @@
   font-family: var(--secondary-fonts);
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
   letter-spacing: 0.03em;
   line-height: 1.19;
   color: var(--accent-text-color);
-  text-transform: capitalize;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .logo-accent {
   font-family: var(--secondary-fonts);
   color: var(--main-text-color);
-  text-transform: capitalize;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .header_list_contacts .link:hover,
 .header_list_contacts .link:focus {
-  color: #9ccff8;
+  color: #000000;
 }
 
 .header_list {
@@ -65,41 +64,34 @@
 }
 
 .header_link1 {
-  font-family: var(--main-font);
+  font-family: var(--main-text-color);
   font-weight: 500;
-  font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
 
   color: var(--accent-text-color);
-  text-transform: capitalize;
 }
 
 .header_link2 {
-  font-family: var(--main-font);
+  font-family: var(--main-text-color);
   font-weight: 500;
-  font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
 
   color: var(--main-text-color);
-  text-transform: capitalize;
 }
 
 .header_link3 {
-  font-family: var(--main-font);
+  font-family: var(--main-text-color);
   font-weight: 500;
-  font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
 
   color: var(--main-text-color);
-  text-transform: capitalize;
 }
 
 .header_link4 {
-  font-family: var(--main-font);
-  font-size: 14px;
+  font-family: var(--main-text-color);
   line-height: 16px;
   letter-spacing: 0.02em;
 
@@ -107,14 +99,12 @@
 }
 
 .header_link5 {
-  font-family: var(--main-font);
+  font-family: var(--main-text-color);
   font-weight: 500;
-  font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
 
   color: var(--other-text-color);
-  text-transform: capitalize;
 }
 /* Main SECT */
 .body {
@@ -138,18 +128,20 @@
   font-family: var(--main-font);
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.8;
+  line-height: 1.88;
+  align-items: center;
+  text-align: center;
   letter-spacing: 0.06em;
   cursor: pointer;
 
-  color: #ffffff;
+  color: var(--main-background-color);
   background-color: var(--accent-text-color);
-  border-radius: 4px;
 }
 
 .bttn:hover,
-.bttn:target {
-  background-color: #9ccff8;
+.bttn:focus {
+  background-color: var(--main-background-color);
+  color: var(--accent-text-color);
 }
 
 .section_bttns {
@@ -160,44 +152,48 @@
   text-align: center;
   letter-spacing: 0.03em;
   cursor: pointer;
-  text-transform: capitalize;
 }
 
 .bttn_port {
-  color: #ffffff;
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-background-color);
   background: var(--accent-text-color);
   border-radius: 4px;
   cursor: pointer;
-  text-transform: capitalize;
 }
 .bttn_port:hover,
-.bttn_port:target {
-  background-color: #9ccff8;
+.bttn_port:focus {
+  background-color: var(--team-background-color);
 }
 
 .bttns {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
   color: var(--main-text-color);
-  background-color: var(--credo-color);
+  background-color: var(--team-background-color);
   cursor: pointer;
-  text-transform: capitalize;
 
   border-radius: 4px;
 }
 
 .bttns:hover,
 .bttns:target {
-  background-color: #9ccff8;
+  background-color: var(--team-background-color);
 }
 
 /* section_credo */
-.credo_list {
-  column-count: 4;
-  text-indent: 40px;
-}
 .credo_header {
   font-family: var(--main-font);
   font-weight: 700;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -207,12 +203,8 @@
 
 .credo_text {
   font-family: var(--main-font);
-  font-size: 14px;
-  line-height: 1.7;
+  line-height: 1.71;
   letter-spacing: 0.03em;
-
-  column-count: 4;
-  text-indent: 40px;
 
   color: var(--other-text-color);
 }
@@ -229,14 +221,25 @@
 
   color: var(--main-text-color);
 }
-.columns {
-  column-count: 3;
+/* our_project_section */
+.our_project_title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
+
+.our_project_text {
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--secondary-text-color);
+}
+
 /* our team sect*/
 .our_team {
   box-sizing: border-box;
   border: 1px solid #000000;
-  background: #f5f4fa;
+  background: var(--team-background-color);
 }
 
 .our_team_header {
@@ -257,7 +260,6 @@
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
-  text-transform: capitalize;
 
   color: var(--main-text-color);
 }
@@ -268,7 +270,6 @@
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
-  text-transform: capitalize;
 
   color: var(--other-text-color);
 }
