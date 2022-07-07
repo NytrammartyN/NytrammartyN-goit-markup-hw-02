@@ -54,57 +54,35 @@
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.header_list_contacts .link:hover,
-.header_list_contacts .link:focus {
-  color: #000000;
-}
-
 .header_list {
   list-style: none;
 }
 
-.header_link1 {
-  font-family: var(--main-text-color);
+.header_nav_link {
   font-weight: 500;
-  line-height: 16px;
+  font-size: 14px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
-
-  color: var(--accent-text-color);
-}
-
-.header_link2 {
-  font-family: var(--main-text-color);
-  font-weight: 500;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-
   color: var(--main-text-color);
 }
 
-.header_link3 {
-  font-family: var(--main-text-color);
+.header_contact_link {
   font-weight: 500;
+  font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-
-  color: var(--main-text-color);
-}
-
-.header_link4 {
-  font-family: var(--main-text-color);
-  line-height: 16px;
-  letter-spacing: 0.02em;
-
-  color: var(--accent-text-color);
-}
-
-.header_link5 {
-  font-family: var(--main-text-color);
-  font-weight: 500;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-
   color: var(--other-text-color);
+}
+
+.header_nav_link:hover,
+.header_nav_link:focus,
+.header_contact_link:hover,
+.header_contact_link:focus {
+  color: var(--accent-text-color);
+}
+
+.header_nav_link.current {
+  color: var(--accent-text-color);
 }
 /* Main SECT */
 .body {
@@ -140,8 +118,7 @@
 
 .bttn:hover,
 .bttn:focus {
-  background-color: var(--main-background-color);
-  color: var(--accent-text-color);
+  background-color: #188ce8;
 }
 
 .section_bttns {
@@ -168,7 +145,7 @@
 }
 .bttn_port:hover,
 .bttn_port:focus {
-  background-color: var(--team-background-color);
+  background-color: #188ce8;
 }
 
 .bttns {
@@ -187,14 +164,31 @@
 
 .bttns:hover,
 .bttns:target {
-  background-color: var(--team-background-color);
+  background-color: var(--accent-text-color);
+  color: var(--main-background-color);
 }
 
 /* section_credo */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 .credo_header {
+  font-size: 14px;
   font-family: var(--main-font);
   font-weight: 700;
   line-height: 1.14;
+
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
@@ -329,13 +323,13 @@
 
 .location:hover,
 .location:focus {
-  color: #9ccff8;
+  color: #188ce8;
 }
 .mail:hover,
 .mail:focus {
-  color: #9ccff8;
+  color: #188ce8;
 }
 .tel:hover,
 .tel:focus {
-  color: #9ccff8;
+  color: #188ce8;
 }
