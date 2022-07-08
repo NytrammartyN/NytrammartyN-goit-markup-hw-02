@@ -152,7 +152,7 @@
   font-family: var(--main-font);
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: calc(26 / 16);
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
@@ -231,8 +231,6 @@
 
 /* our team sect*/
 .our_team {
-  box-sizing: border-box;
-  border: 1px solid #000000;
   background: var(--team-background-color);
 }
 
